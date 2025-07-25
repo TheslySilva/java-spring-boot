@@ -1,10 +1,10 @@
-package com.railway.helloworld;
+package com.railway.gerenciador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloworldApplicationTests {
+class GerenciadorApplicationTests {
 
 	@Test
 	void contextLoads() {

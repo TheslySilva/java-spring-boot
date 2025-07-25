@@ -1,4 +1,4 @@
-package com.railwayguide.helloworld;
+package com.railway.gerenciador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,15 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class HelloworldApplication {
-
+public class GerenciadorApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(HelloworldApplication.class, args);
+		SpringApplication.run(com.railway.gerenciador.GerenciadorApplication.class, args);
 	}
-
-	@GetMapping("/")
-    public String hello() {
-      return String.format("Hello world from Java Spring Boot!");
-    }
-
 }
