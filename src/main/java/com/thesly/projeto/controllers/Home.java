@@ -14,6 +14,7 @@ public class Home {
         return "Hola mundo";
     }
 
+    @GetMapping("/produtos")
     public Products produtos(){
       return  products;
     }
