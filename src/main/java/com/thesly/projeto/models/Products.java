@@ -20,13 +20,11 @@ public class Products {
     public Products() {}
 
     public Products(
-            int id,
             String name,
             String marca,
             Integer quantity,
             Integer valor
     ) {
-        Id = id;
         this.name = name;
         this.marca = marca;
         this.quantity = quantity;
