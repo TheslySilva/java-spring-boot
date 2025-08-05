@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Home {
 
     private Products products= new Products("Arroz","Brejeiro",4,12);
-    
+
     @GetMapping
     public String home(){
         return "Hola mundo";
